@@ -1,0 +1,33 @@
+<%- include('header')%>
+<div class="container">
+    
+    <div style="width: 30%; margin: 95px auto;">
+        <h1 id="sign" >SIGN UP !!</h1>
+        <form  action="/register" method="POST">
+            <label for="validationTooltipUsername"></label>
+
+            <div class="form-group ">
+                <input class="form-control rounded-pill rounded-lg" type="text" name="username" placeholder="username" id="validationTooltipUsername" required>
+                <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                  </div>
+            </div>
+            <div class="form-group">
+                <input class="form-control rounded-pill rounded-lg" type="password" name="password" placeholder="password" id="validationTooltipUsername" required>
+                <div class="invalid-tooltip">
+                    Please enter password
+                  </div>
+            </div>
+            <div class="form-goup">
+                <button class="btn btn-lg btn-block btn-success rounded-pill border  rounded-lg">Login</button>
+
+            </div>
+            
+            
+        </form> 
+        
+    </div>
+
+</div>
+
+<%- include('footer')%>

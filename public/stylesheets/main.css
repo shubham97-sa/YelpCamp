@@ -1,0 +1,42 @@
+.img-thumbnail img{
+    width:100%;
+}
+.img-thumbnail{
+    padding:0;
+}
+#index{
+    padding: 0;
+}
+#index img{
+    width: 100%;
+}
+.img-thumbnail .caption-full{
+    padding: 9px;
+}
+#md_9{
+    margin-top: 22px;
+}
+#well{
+    margin-top: 25px;
+}
+#user{
+    text-align: center;
+    margin-top: 7.5px;
+}
+#delete-form{
+    display: inline;
+}
+.alert{
+    margin-top: 8px;
+}
+.jumbotron{
+    margin-top: 15px;
+}
+#sign{
+    text-align: center;
+    text-decoration: rebeccapurple;
+    text-transform: capitalize;
+    text-shadow: steelblue;
+    color: blueviolet;
+   
+}
